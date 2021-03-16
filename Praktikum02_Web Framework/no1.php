@@ -4,7 +4,7 @@ class Laptop{
 	//Properties
 	public $pemilik;
 
-	//Method=hello
+	//Method=klik
 	public function klik ()
 	{
 	return "jangan lupa dimatikan apabila tidak digunakan ^,^";
