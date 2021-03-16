@@ -1,6 +1,7 @@
 <?php
 class Hello extends CI_Controller{
 	public function index(){
+		/*
 		//echo "<h2>Hello World CI!</h2>";
 
 		//memanggil file view
@@ -17,7 +18,7 @@ class Hello extends CI_Controller{
 
 		//Membuat data yang akan dikirim ke view
 		$data['teks'] = $a;
-
+		*/
 		//Memanggil file view
 		$this->load->view('helloview', $data); //file view
 	}
