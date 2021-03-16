@@ -6,7 +6,7 @@ class Kendaraan{
 	public $tahun_pembuatan;
 	public $harga_second;
 
-	//Method = BBM
+	//Method = Return_Harga_Second
 	public function Return_Harga_Second () {
 	$harga_second = $this -> tahun_pembuatan ;
 	if ($harga_second > 2010){

@@ -73,7 +73,7 @@ echo "<br />";
 echo $Tv -> kerusakan = 15 . "%";
 echo "<hr />";
 
-//methods get a Subsidi BBM
+//methods get a Return_Barang
 echo $Handphone -> Return_Barang();
 echo "<br />";
 echo "<br />";
