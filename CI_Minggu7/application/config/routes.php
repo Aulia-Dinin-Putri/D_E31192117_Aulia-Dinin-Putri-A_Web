@@ -55,3 +55,6 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['profil'] = 'welcome/profil';
 $route['contact'] = 'welcome/contact';
+
+$route['Kode/(:any)'] = 'Kode/hello/$1';
+$route['Kode1/(:any)'] = 'Kode1/_remap/$1';
