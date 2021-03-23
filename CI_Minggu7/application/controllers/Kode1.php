@@ -27,10 +27,11 @@ class Kode1 extends CI_Controller{
 					break;
 				default:
 					$this->index();
-			}else{
-				$this->index();
 			}
 		}
+		else{
+			$this->index();
+		    }
 	}
 }
 ?>
